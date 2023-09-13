@@ -28,6 +28,7 @@ class HierarchySDDIDisplay(p.SingletonPlugin):
         p.toolkit.add_public_directory(config_, 'public')
         p.toolkit.add_resource('public/scripts/vendor/jstree', 'jstree')
         p.toolkit.add_resource('fanstatic', 'grouphierarchy')
+        p.toolkit.add_public_directory(config_, 'fanstatic')
 
     # IActions
 
